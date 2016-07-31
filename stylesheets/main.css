@@ -1,1 +1,114 @@
 // stylesheet stuff goes here :)
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  max-width: 40rem;
+}
+p{
+  padding-left: 2rem ;
+  padding-right: 2rem;
+  text-align: left;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2.5rem;
+}
+
+/*_________Header css_________________*/
+
+header {
+  /*font-size: 2rem;*/
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+  /*margin-top: 3rem;*/
+  /*border-style: solid;
+  border-color: black;*/
+  /*padding: auto 0.5rem;*/
+}
+header h1 {
+  padding-left: 3rem;
+}
+header h2 {
+  margin: auto;
+  /*padding-left: 20%;*/
+
+}
+
+
+/*_________Main css_________________*/
+
+main {
+  height: 89.6rem;
+  display: flex;
+  flex-direction: column;
+  /*padding-top: 10rem;*/
+  justify-content: center;
+  align-items: center;
+  /*border-style: solid;
+  border-color: black;*/
+}
+main img {
+  height: 50%;
+  width: auto;
+}
+
+main h1 p{
+  display: inline;
+}
+/*_________Footer css_________________*/
+
+footer {
+  height: 9rem;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /*border-style: solid;
+  border-color: black;*/
+  padding: auto 0.5rem;
+}
+footer img {
+  margin: 0;
+  height: 8rem;
+  width: auto;
+  /*border-style: solid;
+  border-color: black;*/
+}
+footer a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+footer a h2 {
+  padding: 0rem;
+  color: white;
+  text-decoration: none;
+}
+.orange {
+  background-color: #facfb2;
+}
+.blue {
+  background-color: #addbe3;
+}
+.green {
+  background-color: #aad6c0;
+}
+.pink {
+  background-color: #e3abbb;
+}
+.purple {
+  background-color: #cabfda;
+}
+.yellow {
+  background-color: #f3e5b2;
+}
+.purple {
+  background-color: #cabfda;
+}
